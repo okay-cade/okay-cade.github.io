@@ -55,8 +55,11 @@ p ~ .l-two-up {
     margin-top: 1em;
   }
   div {
-    @include flex-basis(33%);
+    width: 50%;
     padding: 2em 1em;
+    @media(min-width: $break-medium-small) {
+      width: 33%;
+    }
   }
 
   svg {
