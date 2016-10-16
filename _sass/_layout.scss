@@ -64,10 +64,10 @@ p ~ .l-two-up {
     fill: #545454;
     height: 125px;
     margin: 0 auto;
-    transition: fill 100ms;
+    transition: fill 200ms;
     &:hover {
-      transition: fill 100ms;
       fill: #8d8f9c;
+      transition: fill 200ms;
     }
   }
 }
