@@ -46,26 +46,24 @@ p ~ .l-two-up {
 .l-three-up {
   @include flexbox;
   @include flex-wrap(wrap);
-  @include justify-content(space-between);
+  @include justify-content(center);
   margin-left: -1em;
   margin-right: -1em;
   text-align: center;
   span {
     display: inline-block;
-    margin-top: .5em;
+    margin-top: 1em;
   }
   div {
     @include flex-basis(33%);
     padding: 2em 1em;
   }
+
   svg {
-    width: 100%;
-    max-height: 150px;
-    margin: 0 auto;
-    fill: #545454;
     display: block;
-  }
-  svg g {
+    fill: #545454;
+    height: 125px;
+    margin: 0 auto;
     transition: fill 100ms;
     &:hover {
       transition: fill 100ms;
