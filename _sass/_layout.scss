@@ -9,7 +9,7 @@
 }
 
 .l-section {
-  border-bottom: 1px solid darken($color-light-gray, 5%);
+  border-bottom: 1px solid $color-border;
   padding: 4em 1em;
   &:nth-child(even) {
     background-color: $color-light-gray;
