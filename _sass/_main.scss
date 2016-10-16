@@ -1,7 +1,9 @@
 .header-container {
   position: relative;
   + * {
-    padding-top: 7em;
+    @media(min-width: $break-medium-small) {
+      padding-top: 6em;
+    }
   }
 }
 
@@ -9,7 +11,10 @@
   background-image: url('images/header.jpg');
   background-position: bottom;
   background-size: cover;
-  height: 66vh;
+  height: 40vh;
+  @media(min-width: $break-medium-small) {
+    height: 66vh;
+  }
 }
 
 .icon {
