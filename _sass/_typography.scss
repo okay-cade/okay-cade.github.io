@@ -1,17 +1,19 @@
 body {
+  color: $color-body;
   font-family: $font-body;
   font-size: 18px;
+  font-weight: 300;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin-bottom: .3em;
+  margin-bottom: .5em;
 }
 
 h1 {
+  font-family: $font-header;
   font-size: 1.5em;
-  text-transform: uppercase;
   text-align: center;
-  margin-bottom: 1em;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -19,7 +21,7 @@ h2 {
 }
 
 p {
-  line-height: 1.4;
+  line-height: 1.8;
   margin-bottom: 1em;
 }
 

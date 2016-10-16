@@ -3,6 +3,11 @@
   margin: 0 auto;
 }
 
+.l-wrapper-large {
+  max-width: $page-width-large;
+  margin: 0 auto;
+}
+
 .l-section {
   border-bottom: 1px solid darken($color-light-gray, 5%);
   padding: 4em 1em;

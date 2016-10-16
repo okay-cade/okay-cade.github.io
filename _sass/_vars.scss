@@ -1,15 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600|Unica+One');
+
 // Colors
 $color-light-gray: #f4f4f4;
 $color-body: #28292b;
 
 // Fonts
-$font-body: -apple-system, BlinkMacSystemFont,
-    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
-    "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+$font-header: 'Unica One', sans-serif;
+$font-body: 'Source Sans Pro', sans-serif;
 
 // layout
-$page-width: 800px;
+$page-width: 850px;
+$page-width-large: 1024px;
 
 // Break points
 $break-small: 400px;
