@@ -28,12 +28,22 @@
   background-size: cover;
   color: #fff;
   padding: 4em 0;
-  text-align: center;
-  a {
-    font-size: 3em;
-    color: #fff;
-    text-decoration: none;
-  }
+}
+
+.form-label {
+  display: block;
+  text-transform: uppercase;
+}
+
+input, textarea {
+  margin: .3em 0 2em;
+  padding: .5em;
+  width: 100%;
+  font-size: .8em;
+}
+
+textarea {
+  min-height: 150px;
 }
 
 .footer {

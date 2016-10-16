@@ -22,3 +22,17 @@ p {
   line-height: 1.4;
   margin-bottom: 1em;
 }
+
+.button {
+  border-radius: 0;
+  -webkit-appearance: none;
+  background: $color-light-gray;
+  text-transform: uppercase;
+  font-size: .8em;
+  padding: .5em;
+  border: 0;
+  cursor: pointer;
+  &:hover {
+    background-color: darken($color-light-gray, 10%);
+  }
+}
