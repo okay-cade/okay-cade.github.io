@@ -30,10 +30,9 @@ p ~ .l-two-up {
     text-align: left;
   }
   div {
-    @include flex-basis(50%);
+    @include flex-basis(300px);
     @include flex-grow(1);
     padding: 1em;
-    min-width: 300px;
   }
 }
 
