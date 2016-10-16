@@ -23,6 +23,9 @@ h2 {
 p {
   line-height: 1.8;
   margin-bottom: 1em;
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 a {

@@ -39,7 +39,12 @@ p ~ .l-two-up {
   div {
     @include flex-basis(300px);
     @include flex-grow(1);
-    padding: 1em;
+    padding: 0 1em;
+    &:last-child {
+      @media(max-width: $break-medium-small) {
+        padding-top: 1em;
+      }
+    }
   }
 }
 
