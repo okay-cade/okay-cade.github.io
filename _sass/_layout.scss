@@ -1,16 +1,18 @@
 .l-wrapper {
   max-width: $page-width;
   margin: 0 auto;
+  padding: 0 1em;
 }
 
 .l-wrapper-large {
   max-width: $page-width-large;
   margin: 0 auto;
+  padding: 0 1em;
 }
 
 .l-section {
   border-bottom: 1px solid $color-border;
-  padding: 4em 1em;
+  padding: 4em 0;
   &:nth-child(even) {
     background-color: $color-light-gray;
   }
@@ -38,6 +40,37 @@ p ~ .l-two-up {
     @include flex-basis(300px);
     @include flex-grow(1);
     padding: 1em;
+  }
+}
+
+.l-three-up {
+  @include flexbox;
+  @include flex-wrap(wrap);
+  @include justify-content(space-between);
+  margin-left: -1em;
+  margin-right: -1em;
+  text-align: center;
+  span {
+    display: inline-block;
+    margin-top: .5em;
+  }
+  div {
+    @include flex-basis(33%);
+    padding: 2em 1em;
+  }
+  svg {
+    width: 100%;
+    max-height: 150px;
+    margin: 0 auto;
+    fill: #545454;
+    display: block;
+  }
+  svg g {
+    transition: fill 100ms;
+    &:hover {
+      transition: fill 100ms;
+      fill: #8d8f9c;
+    }
   }
 }
 
