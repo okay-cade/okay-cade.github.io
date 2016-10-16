@@ -1,12 +1,12 @@
 .l-wrapper {
-  max-width: $page-width;
   margin: 0 auto;
+  max-width: $page-width;
   padding: 0 1em;
 }
 
 .l-wrapper-large {
-  max-width: $page-width-large;
   margin: 0 auto;
+  max-width: $page-width-large;
   padding: 0 1em;
 }
 
@@ -60,23 +60,10 @@ p ~ .l-two-up {
     margin-top: 1em;
   }
   div {
-    width: 50%;
     padding: 2em 1em;
+    width: 50%;
     @media(min-width: $break-medium-small) {
       width: 33%;
-    }
-  }
-
-  svg {
-    display: block;
-    fill: #545454;
-    height: 125px;
-    margin: 0 auto;
-    transition: fill 200ms;
-    width: 100%;
-    &:hover {
-      fill: #8d8f9c;
-      transition: fill 200ms;
     }
   }
 }

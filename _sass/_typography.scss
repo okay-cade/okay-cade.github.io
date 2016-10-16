@@ -1,8 +1,11 @@
 body {
   color: $color-body;
   font-family: $font-body;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 300;
+  @media(min-width: $break-medium-small) {
+    font-size: 18px;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -11,7 +14,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-family: $font-header;
-  font-size: 1.5em;
+  font-size: 1.75em;
   text-align: center;
   text-transform: uppercase;
 }
