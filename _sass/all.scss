@@ -1,2 +1,9 @@
 // All css will go here
-
+* {
+  box-sizing: border-box;
+}
+@import 'reset';
+@import 'vars';
+@import 'typography';
+@import 'layout';
+@import 'main';

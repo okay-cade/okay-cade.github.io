@@ -2,24 +2,56 @@
 layout: default
 ---
 
-<div class="home">
+<section class="l-section">
+  <div class="l-wrapper">
+    <h1>Hey there! My name is Cade.</h1>
+    <p class="l-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium ut velit nobis animi alias repudiandae atque, voluptatibus debitis odit ex sapiente veritatis voluptate perspiciatis labore aperiam deleniti. Fugit, quidem, amet.</p>
+  </div>
+</section>
 
-  <h1 class="page-heading">Posts</h1>
-  
-  {{ content }}
+<section class="l-section">
+  <div class="l-wrapper">
+    <h1>Checkout my work.</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium ut velit nobis animi alias repudiandae atque, voluptatibus debitis odit ex sapiente veritatis voluptate perspiciatis labore aperiam deleniti. Fugit, quidem, amet.</p>
+  </div>
+</section>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+<section class="l-section">
+  <div class="l-wrapper">
+    <h1>What am I looking for?</h1>
+    <h2>Screen Printing</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium ut velit nobis animi alias repudiandae atque, voluptatibus debitis odit ex sapiente veritatis voluptate perspiciatis labore aperiam deleniti. Fugit, quidem, amet.</p>
+    <div class="l-two-up">
+      <div>
+        <h2>Digital Printing</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quibusdam quis beatae distinctio voluptatem tempora, eveniet vitae molestias quia sequi, reprehenderit error recusandae, aliquid ipsam dolorem aut animi corporis mollitia?</p>
+      </div>
+      <div>
+        <h2>Production</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quibusdam quis beatae distinctio voluptatem tempora, eveniet vitae molestias quia sequi, reprehenderit error recusandae, aliquid ipsam dolorem aut animi corporis mollitia?</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+<section class="l-section">
+  <div class="l-wrapper">
+    <div class="l-two-up">
+      <div>
+        <img src="assets/images/cade.jpg">
+      </div>
+      <div>
+        <h1>Cade Robinson</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium ut velit nobis animi alias repudiandae atque, voluptatibus debitis odit ex sapiente veritatis voluptate perspiciatis labore aperiam deleniti. Fugit, quidem, amet.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium ut velit nobis animi alias repudiandae atque, voluptatibus debitis odit ex sapiente veritatis voluptate perspiciatis labore aperiam deleniti. Fugit, quidem, amet.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-
-</div>
+<section class="l-section contact">
+  <div class="l-wrapper">
+    <h1>Let's chat!</h1>
+    <a href="mailto:blahblah">caderobinson@gmail.com</a>
+  </div>
+</section>

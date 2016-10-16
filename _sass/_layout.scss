@@ -1,0 +1,46 @@
+.l-wrapper {
+  max-width: $page-width;
+  margin: 0 auto;
+}
+
+.l-section {
+  border-bottom: 1px solid darken($color-light-gray, 5%);
+  padding: 4em 1em;
+  &:nth-child(even) {
+    background-color: $color-light-gray;
+  }
+  &:last-of-type {
+    border-bottom: 0;
+  }
+}
+
+// GRID
+
+p ~ .l-two-up {
+  margin-top: 3em;
+}
+
+.l-two-up {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: -1em;
+  margin-right: -1em;
+  h1 {
+    text-align: left;
+  }
+  div {
+    flex-basis: 50%;
+    flex-grow: 1;
+    padding: 1em;
+    min-width: 300px;
+  }
+}
+
+.l-center {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
