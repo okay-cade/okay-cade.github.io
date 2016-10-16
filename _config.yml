@@ -25,7 +25,6 @@ twitter_username: okay_cade
 markdown: kramdown
 gems:
   - jekyll-feed
-  - jekyll-autoprefixer
 exclude:
   - Gemfile
   - Gemfile.lock
