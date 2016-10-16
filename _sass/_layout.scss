@@ -68,6 +68,7 @@ p ~ .l-two-up {
     height: 125px;
     margin: 0 auto;
     transition: fill 200ms;
+    width: 100%;
     &:hover {
       fill: #8d8f9c;
       transition: fill 200ms;
