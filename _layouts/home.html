@@ -82,14 +82,15 @@ layout: default
 <section id="contact" class="l-section contact">
   <div class="l-wrapper">
     <h1 class="u-mb-large">Let's chat!</h1>
-    <form action="https://helloworks.co/app/form/send/8e384ee5c5244acd9c5c118235f5dff7" class="form">
-      <label class="form-label">Name</label>
-      <input type="text" name="name" required="" placeholder="Name">
-      <label class="form-label">Email Address</label>
-      <input type="email" name="email" required="" placeholder="email@email.com">
-      <label class="form-label">Message</label>
-      <textarea name="message" required=""></textarea>
-      <button class="button" type="submit">Send Message</button><input type="hidden" name="validator" value="true">
+    <form class="form" action="https://formspree.io/ampalanzi@gmail.com"
+          method="POST">
+        <label class="form-label">Name</label>
+        <input type="text" name="name" required="">
+        <label class="form-label" required="">Email Address</label>
+        <input type="email" name="_replyto" required="">
+        <label class="form-label">Message</label>
+        <textarea name="message" required=""></textarea>
+        <input class="button" type="submit" value="Send">
     </form>
   </div>
 </section>
