@@ -14,29 +14,29 @@ layout: default
 <section id="skills" class="l-section">
   <div class="l-wrapper">
     <h1>Check out some of my work</h1>
-    <div class="l-three-up">
+    <div class="l-three-up skills">
       <div>
-        {% include print.html %}
+        {% include svgs/print.html %}
         <span>Print Making</span>
       </div>
       <div>
-        {% include icon.html %}
+        {% include svgs/icon.html %}
         <span>Iconography</span>
       </div>
       <div>
-        {% include prod.html %}
+        {% include svgs/prod.html %}
         <span>Production</span>
       </div>
       <div>
-        {% include photo.html %}
+        {% include svgs/photo.html %}
         <span>Photography</span>
       </div>
       <div>
-        {% include brand.html %}
+        {% include svgs/brand.html %}
         <span>Brand Identity</span>
       </div>
       <div>
-        {% include web.html %}
+        {% include svgs/web.html %}
         <span>Web Design</span>
       </div>
     </div>
@@ -49,11 +49,11 @@ layout: default
     <h2>Screen Printing</h2>
     <p>My dream career. I am looking for an entry position at a shop in which I can work with a team of expereinced professionals. Whether that be pre-production or actually working with screens, I hope to get my foot in the door and learn the ins-and-outs of the craft through experience and whatever wisdom my teammates have to pass on. While I may not have worked in a print shop environment before I am confident my experience, attention to detail, and strong drive for quality will somthing something something. Motivation. Problem-solving.</p>
     <div class="l-two-up">
-      <div>
+      <div class="l-two-up__item">
         <h2>Digital Printing</h2>
         <p>Not entirely sure how to talk about this one. It is still print and just as exciting to me but im looking for more hands on. but i am still interested in the process sooooooooo</p>
       </div>
-      <div>
+      <div class="l-two-up__item">
         <h2>Production</h2>
         <p>Other jobs I am confident I could apply my skills to and would be excited to learn include embroydery, sign making, promotional items</p>
       </div>
@@ -64,16 +64,38 @@ layout: default
 <section id="about" class="l-section">
   <div class="l-wrapper-large">
     <div class="l-two-up">
-      <div>
+      <div class="l-two-up__item">
         <img src="assets/images/cade.jpg">
       </div>
-      <div>
+      <div class="l-two-up__item">
         <h1>Cade Robinson</h1>
         <p>Ever since I can remember I have been finding makeshift ways of applying my art onto different surfaces. From making stickers with address labels when I was 8 to hand-painting type onto t-shirts when I was 16. After recieving my BFA in Graphic Design it became clear that Washington DC was not the place for me to pursue my dream career in screen printing due to the lack of shops, let alone open positions. When my partner and I moved our butts accross the country in search of happiness and belonging, I came to appreciate Portland’s love of craftsmanship and close ties to traditional mediums.</p>
 
         <p>I spend most of my days with my partner who is a fellow graphic designer, Dobby the awkward dachshund, Swoon the sweet rat, and Knives the scrappy kitten.</p>
 
         <p><a href="#">View Resumé</a></p>
+        <div class="l-equal hobbies">
+          <div class="l-equal__item hobbies__item">
+            {% include svgs/hobby1.html %}
+            <span class="hobbies__text">Hands-on Projects</span>
+          </div>
+          <div class="l-equal__item hobbies__item">
+            {% include svgs/hobby2.html %}
+            <span class="hobbies__text">Doodling, of couse</span>
+          </div>
+          <div class="l-equal__item hobbies__item">
+            {% include svgs/hobby3.html %}
+            <span class="hobbies__text">Road cycling</span>
+          </div>
+          <div class="l-equal__item hobbies__item">
+            {% include svgs/hobby4.html %}
+            <span class="hobbies__text">Anything outdoors</span>
+          </div>
+          <div class="l-equal__item hobbies__item">
+            {% include svgs/hobby5.html %}
+            <span class="hobbies__text">My fuzzy family</span>
+          </div>
+        </div>
       </div>
     </div>
   </div>
