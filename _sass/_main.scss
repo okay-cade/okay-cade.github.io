@@ -100,9 +100,9 @@
   }
   &__item {
     cursor: pointer;
+    margin-right: 2.5em;
     position: relative;
     text-align: center;
-    margin-right: 2.5em;
     &:last-of-type {
       margin-right: 0;
     }
@@ -151,8 +151,8 @@
 }
 
 input, textarea {
-  border-radius: 3px;
   border: 1px solid darken($color-light-gray, 40%);
+  border-radius: 3px;
   font-size: .8em;
   margin: .3em 0 2em;
   padding: .5em;
@@ -169,15 +169,16 @@ textarea {
   font-size: .8em;
   padding: 2em 0;
   .l-wrapper {
+    @include align-items(center);
+    @include flexbox;
+    @include justify-content(space-between);
     position: relative;
-    display: flex;
-    justify-content: space-between;
   }
   &-top {
     border: 0;
     svg {
-      width: 25px;
       height: 25px;
+      width: 25px;
     }
     &:hover {
       border: 0;
