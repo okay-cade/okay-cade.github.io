@@ -1,5 +1,5 @@
 .nav {
-  background: rgba(255, 255, 255, .9);
+  background: rgba(255, 255, 255, .98);
   border-bottom: 1px solid $color-border;
   padding: .5em;
   position: fixed;
@@ -24,7 +24,7 @@
   a {
     border-color: transparent;
     font-size: .9em;
-    margin: 0 .5em;
+    margin: 0 1em;
     &:hover {
       border-bottom: 2px solid darken($color-border, 10%);
     }
