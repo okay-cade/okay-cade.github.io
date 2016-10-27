@@ -120,6 +120,23 @@
   }
 }
 
+.instagram {
+  margin-top: 1em;
+  img {
+    vertical-align: bottom;
+  }
+  &__item {
+    border: 2px solid $color-border;
+    margin-right: 1em;
+    &:last-of-type {
+      margin-right: 0;
+    }
+    &:hover {
+      border: 2px solid $color-border;
+    }
+  }
+}
+
 .contact {
   background-image: url('images/trees.jpg');
   background-size: cover;
