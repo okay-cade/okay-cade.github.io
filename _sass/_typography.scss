@@ -43,15 +43,22 @@ a {
 }
 
 .button {
-  border-radius: 0;
   -webkit-appearance: none;
-  background: $color-light-gray;
-  text-transform: uppercase;
-  font-size: .8em;
-  padding: .5em;
+  background: darken($color-light-gray, 20%);
+  border-radius: 3px;
   border: 0;
+  border: 1px solid darken($color-light-gray, 40%);
+  color: #fff;
   cursor: pointer;
+  display: inline-block;
+  font-size: .8em;
+  padding: .75em 5em;
+  text-transform: uppercase;
+  width: auto;
+  transition: background-color 300ms, border 300ms;
   &:hover {
-    background-color: darken($color-light-gray, 10%);
+    background-color: $color-green;
+    border-color: $color-green;
+    transition: background-color 300ms, border 300ms;
   }
 }

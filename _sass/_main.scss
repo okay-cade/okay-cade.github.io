@@ -134,6 +134,8 @@
 }
 
 input, textarea {
+  border-radius: 3px;
+  border: 1px solid darken($color-light-gray, 40%);
   font-size: .8em;
   margin: .3em 0 2em;
   padding: .5em;
