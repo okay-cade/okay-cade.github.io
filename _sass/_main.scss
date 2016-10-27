@@ -151,6 +151,24 @@ textarea {
   color: lighten($color-body, 50%);
   font-size: .8em;
   padding: 2em 0;
+  .l-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+  }
+  &-top {
+    border: 0;
+    svg {
+      width: 25px;
+      height: 25px;
+    }
+    &:hover {
+      border: 0;
+      svg {
+        fill: $color-green;
+      }
+    }
+  }
 }
 
 .u-mb-large {
