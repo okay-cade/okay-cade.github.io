@@ -1,4 +1,4 @@
-# cade's internet website
+# cade robinson's portfolio
 simple [jekyll](https://jekyllrb.com/) site for a friend.
 
 ## Install:
