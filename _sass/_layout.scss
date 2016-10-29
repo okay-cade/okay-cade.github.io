@@ -78,9 +78,13 @@ p ~ .l-two-up {
     display: inline-block;
     margin-top: 1em;
   }
-  div {
+  &__item {
+    border: 0;
     padding: 2em 1em;
     width: 50%;
+    &:hover {
+      border: 0;
+    }
     @media(min-width: $break-medium-small) {
       width: 33%;
     }
