@@ -47,6 +47,23 @@ p ~ .l-two-up {
         padding-top: 1em;
       }
     }
+
+    .l-two-up--unequal & {
+      @media(max-width: $break-medium-small) {
+        &:first-of-type {
+          order: 2;
+          padding-top: 1em;
+        }
+      }
+      @media(min-width: $break-medium-small) {
+        &:first-of-type {
+          @include flex-basis(66%);
+        }
+        &:last-of-type {
+          @include flex-basis(33%);
+        }
+      }
+    }
   }
 }
 
