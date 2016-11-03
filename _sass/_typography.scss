@@ -62,3 +62,25 @@ a {
     transition: background-color 300ms, border 300ms;
   }
 }
+
+.button-project {
+  background: #ea1d2c;
+  border-radius: 3px;
+  border: 0;
+  color: #fff;
+  display: block;
+  font-size: .9em;
+  letter-spacing: .05em;
+  margin: 0 auto;
+  margin-top: 2em;
+  max-width: 150px;
+  padding: 1em;
+  text-align: center;
+  text-transform: uppercase;
+  transition: background 200ms;
+  &:hover {
+    border: 0;
+    background: darken(#ea1d2c, 10%);
+    transition: background 200ms;
+  }
+}
